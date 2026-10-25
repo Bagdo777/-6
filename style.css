@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #e0359f 0%, #a62fb5 50%, #5226c0 100%);
+    min-height: 100vh;   
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    color: white;
+     text-align: center;                         
+  font-weight: normal; 
+}
+
+form {
+    color: white;
+    background-color: #272727;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 60px auto;     
+    margin-top: 15%;
+    width: 100%;                                
+    max-width: 460px;    
+    padding: 30px;
+    font-size: 15px;
+    border-radius: 8px;     
+}
+label {
+    display: block;   
+    font-size: 12px;                               
+    margin-bottom: 4px;     
+   }
+
+   input,
+textarea {
+  width: 100%;                                 
+  background: #e6e6e6;                         
+  border: none;                                
+  outline: none;                               
+  border-radius: 15px;                         
+  padding: 12px;                             
+}
+
+
+textarea {
+  height: 55px;                                
+  padding: 10px 12px;                          
+  resize: vertical;                            
+}
+
+span {
+    color: red;
+}
+
+
+button {
+  border: none;
+  color: white;
+  background-color: #e91e63;                   
+  border-radius: 20px;                         
+  padding: 8px 28px;                           
+  align-self: center;                          
+  margin-top: 20px;                            
+  cursor: pointer;                             
+}
+
+input {
+    height: 25px;
+}
+
+.gayolebaze{
+  display: flex;
+  gap: 8px;
+}
+
+.gayolebaze label {
+  font-size: 9px;
+  margin-left: 5px;
+}
+
+
+button:hover {
+  background-color: #c2185b;                   
+}
